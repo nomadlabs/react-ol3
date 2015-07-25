@@ -1,0 +1,50 @@
+{
+  "name": "react-ol3",
+  "version": "0.1.0",
+  "description": "React.js OpenLayers3 integration component.",
+  "main": "lib/index.js",
+  "directories": {
+    "src": "src/"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "jest": {
+    "rootDir": "src",
+    "scriptPreprocessor": "<rootDir>/node_modules/babel-jest",
+    "testFileExtensions": [
+      "es6",
+      "js"
+    ],
+    "moduleFileExtensions": [
+      "js",
+      "json",
+      "es6"
+    ]
+  },
+  "keywords": [
+    "openlayers",
+    "openlayers3",
+    "ol3",
+    "react",
+    "component",
+    "react-component",
+    "react.js",
+    "map"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "babel": "^5.7.4",
+    "babel-core": "^5.7.4",
+    "babel-jest": "^5.3.0",
+    "gulp": "^3.9.0",
+    "gulp-babel": "^5.1.0",
+    "jest-cli": "^0.4.15"
+  },
+  "dependencies": {},
+  "peerDependencies": {
+    "openlayers": "^3.7.0",
+    "react": "^0.13.3"
+  }
+}
